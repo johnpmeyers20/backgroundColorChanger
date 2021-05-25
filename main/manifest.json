@@ -2,5 +2,8 @@
   "name": "Background Color Changer", 
   "description": "This simple extension lets you change the background color of the page you're on",
   "version": "1.0",
-  "manifest_version": 3
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  }
 }
